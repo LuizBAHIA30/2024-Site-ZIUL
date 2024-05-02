@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --cor-primaria: #10002b;
+    --cor-secundaria: #240046;
+    --cor-tercearia: #3C096C;
+    --cor-quatearia: #5A189A;
+    --cor-quintearia: #7B2CBF;
+}
+body{
+    background-color: rgb(56, 16, 80);
+    color: aliceblue;
+}
