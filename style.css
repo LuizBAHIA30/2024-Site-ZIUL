@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Viga&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -8,8 +10,16 @@
     --cor-tercearia: #3C096C;
     --cor-quatearia: #5A189A;
     --cor-quintearia: #7B2CBF;
+    --texto-corpo: "Viga", sans-serif;
+    --texto-titulo: "Outfit", sans-serif;
 }
+
 body{
     background-color: rgb(56, 16, 80);
     color: aliceblue;
+    font-family: var(--texto-corpo);
+}
+
+.titulo-pricipal {
+    font-family: var(--tesxto-titulo);
 }
