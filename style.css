@@ -109,7 +109,7 @@ body{
     margin: 0 7em;
 }
 .propaganda__imagem{
-    width: 50%;
+    width: 90%;
 }
 
 .propaganda_titulo{
@@ -125,4 +125,51 @@ body{
 .propaganda_texto{
     font-size: 24px;
     color: var(--cor-quatro)
+}
+
+.propaganda02{
+    display: flex;
+    flex-direction: column;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-family: var(--texto-titulo);
+    font-size: 48px;
+    color: var(--cor-dois);
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item{
+    font-size: 24px;
+    color: var(--cor-quatro);
+}
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.lista__link a{
+    text-decoration: none;
+    color: var(--cor-dois);
+    margin-left: 1em;
+}
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cor-dois);
+    font-size: 14px;
+}
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
 }
